@@ -1,0 +1,46 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color: #777;
+    line-height: 1.8em;
+    font-weight: 400;
+
+}
+
+.contenedor{
+    /*sombra*/
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+
+.logo-text {
+    font-size: 35px;
+    font-weight: bold;
+    color: #ffffff; 
+}
+
+.toast-success {
+    background-color: #28a745 !important; /* Cambia #28a745 al color deseado */
+}
+
+.toast-info {
+    background-color: #2861a7 !important; /* Cambia #28a745 al color deseado */
+}
+
+.right-aligned-link {
+    margin-left: auto;
+}
+
+
+/* Media Query para ajustar en pantallas más pequeñas */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .right-aligned-link {
+        margin-left: 0;
+        margin-top: 10px; /* Ajusta el margen superior como desees */
+    }
+
+}
